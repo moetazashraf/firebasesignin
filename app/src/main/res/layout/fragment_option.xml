@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.fragments.OptionFragment">
+
+    <TextView
+        android:id="@+id/option_title"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/app_title_color"
+        android:fontFamily="@font/harabara"
+        android:layout_centerHorizontal="true"
+        android:textSize="70sp"
+        android:text="Meating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/option_subtitle"
+        android:layout_below="@id/option_title"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/app_text_color"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Weclome to Meating!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/option_textchoose"
+        android:textStyle="bold"
+        android:layout_below="@id/option_subtitle"
+        android:layout_marginTop="120sp"
+        android:textColor="@color/app_title_color"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="Choose what you are"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/option_button_option1"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="25sp"
+        android:textColor="@color/app_title_color"
+        android:background="@drawable/option_button_style"
+        android:text="Option 1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/option_textchoose"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/option_button_option2"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="25sp"
+        android:textColor="@color/app_title_color"
+        android:background="@drawable/option_button_style"
+        android:text="Option 2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/option_button_option1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_below="@id/option_button_option2"
+        android:id="@+id/option_textlogin"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/app_text_color"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:text="Already have an acccont?\nplease Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meating</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_sentence">Already have anaccont? \n please ![CDATA[ <b> Login</b>]] </string>
+
+    <string name="facebook_app_id">675304036162611</string>
+    <string name="fb_login_protocol_scheme">fb675304036162611</string>
+
+</resources>

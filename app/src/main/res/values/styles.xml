@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EdittextStyle" >
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="imagesignuploginStyle">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">@dimen/icons_dimens</item>
+        <item name="android:layout_height">@dimen/icons_dimens</item>
+    </style>
+
+</resources>

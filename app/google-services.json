@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "898960559813",
+    "firebase_url": "https://meatingapp-a2273.firebaseio.com",
+    "project_id": "meatingapp-a2273",
+    "storage_bucket": "meatingapp-a2273.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898960559813:android:c9e3fff695156e6e",
+        "android_client_info": {
+          "package_name": "app.com.meating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898960559813-nomf5q30v1i8rhd65uq9cos71n3431aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.com.meating",
+            "certificate_hash": "0fd875bdc38cccc68a3b03488e381ce3f3e6f3f1"
+          }
+        },
+        {
+          "client_id": "898960559813-s32jvvd7mr2vfuafvpr05j2mcg16kens.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjGtW3ioGTHZKVTC7XErF2Kz9UarlzQHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898960559813-s32jvvd7mr2vfuafvpr05j2mcg16kens.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

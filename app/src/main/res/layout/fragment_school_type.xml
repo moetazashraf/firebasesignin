@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.SchoolTypeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:id="@+id/schooltype_title"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/app_title_color"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="School Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/shooltype_subtitle"
+        android:layout_below="@+id/schooltype_title"
+        android:layout_marginTop="35sp"
+        android:textColor="@color/app_text_color"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Please choose your school type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/shooltype_subtitle"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:fontFamily="@font/roboto_regular"
+            android:buttonTint="@color/app_text_color"
+            android:textColor="@color/app_text_color"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/radioButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Governmental School "
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:fontFamily="@font/roboto_regular"
+            android:buttonTint="@color/app_text_color"
+            android:textColor="@color/app_text_color"
+            android:id="@+id/radioButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Language School"
+            android:textSize="18sp"/>
+
+    </RadioGroup>
+
+
+</RelativeLayout>

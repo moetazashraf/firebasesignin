@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ui.fragments.SignupFragment">
+
+    <TextView
+        android:id="@+id/signup_title"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/app_title_color"
+        android:fontFamily="@font/harabara"
+        android:layout_centerHorizontal="true"
+        android:textSize="70sp"
+        android:text="Meating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        style="@style/imagesignuploginStyle"
+        android:layout_below="@id/signup_title"
+        android:src="@drawable/profileicon"
+        />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/signup_textinput_username"
+            android:layout_below="@id/signup_title"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username">
+
+            <EditText
+                style="@style/EdittextStyle"
+                android:id="@+id/signup_username"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        style="@style/imagesignuploginStyle"
+        android:layout_below="@id/signup_textinput_username"
+        android:src="@drawable/emailicomn"
+         />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/signup_textinput_email"
+            android:layout_below="@id/signup_textinput_username"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address">
+
+            <EditText
+                style="@style/EdittextStyle"
+                android:id="@+id/signup_email"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        style="@style/imagesignuploginStyle"
+        android:layout_below="@id/signup_textinput_email"
+        android:src="@drawable/lockicon_copy"
+        />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/signup_textinput_password"
+            android:layout_below="@id/signup_textinput_email"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password">
+
+            <EditText
+                style="@style/EdittextStyle"
+                android:id="@+id/signup_password"
+                android:inputType="textPassword" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        style="@style/imagesignuploginStyle"
+        android:layout_below="@id/signup_textinput_password"
+        android:src="@drawable/mobileicon_copy"
+         />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/signup_textinput_countrykey"
+        android:layout_below="@id/signup_textinput_password"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="+20">
+
+        <EditText
+            android:gravity="top"
+            android:textSize="17dp"
+            android:id="@+id/signup_countrykey"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/signup_textinput_phonenumber"
+        android:layout_below="@id/signup_textinput_password"
+        android:layout_toEndOf="@id/signup_textinput_countrykey"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number">
+
+        <EditText
+            android:gravity="top"
+            android:textSize="17dp"
+            android:id="@+id/signup_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ImageView
+        style="@style/imagesignuploginStyle"
+        android:layout_below="@id/signup_textinput_phonenumber"
+        android:src="@drawable/graduation_icon"
+         />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/signup_textinput_edu"
+        android:layout_below="@id/signup_textinput_phonenumber"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Education">
+
+        <EditText
+            android:gravity="top"
+            android:textSize="17dp"
+            android:id="@+id/signup_edu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:textColor="@color/app_text_color"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/signup_textinput_phonenumber"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:text="Optional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        style="@style/imagesignuploginStyle"
+        android:layout_below="@id/signup_textinput_edu"
+        android:src="@drawable/present"
+         />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/signup_textinput_promocode"
+        android:layout_below="@id/signup_textinput_edu"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Promocode">
+
+        <EditText
+            android:gravity="top"
+            android:textSize="17dp"
+            android:id="@+id/signup_promocode"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:textColor="@color/app_text_color"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/signup_textinput_edu"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:text="Optional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/sign_button_style"
+        android:textAllCaps="false"
+        android:layout_below="@id/signup_textinput_promocode"
+        android:id="@+id/signup_buttonsignup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Sign up" />
+
+</RelativeLayout>
